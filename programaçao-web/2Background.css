@@ -1,0 +1,52 @@
+/*A propriedade (Background) serve para dar cor ou imagen no fundo das tags do tipo block ou bloco*/
+
+
+/*Colocando cores no background*/
+.corDoBackground{
+    background-color: blue;
+
+    background-color: #ff3;
+
+    background-color: rgb(red, green, blue);
+}
+
+/*Colocando imagens no background*/
+.imagenNoBackground{
+    background-image: url(../../imagens/pexels-pixabay-531880.jpg);   
+}
+
+
+
+/*definindo o tamanho e o modo de exibçao da imagen do background*/
+.tamanhoDoBackground{
+    /*Propriedade (contain) repete a imagem se caso for menor do que o background*/
+    background-size: contain;
+
+    /*Propriedade cover adapta a imagen no mesmo tamanho do background esticando ou diminuindo */
+    background-size: cover;
+
+    /* propriedade repeat serve para nao deixar repetir a imagen mantendo no tamanho original */
+    background-repeat: no-repeat;
+
+    /* repete a imagen no eixo X */
+    background-repeat: repeat-x;
+
+    /* repete a imagen no eixo y */
+    background-repeat: repeat-y;
+}
+
+
+/* determina a posição do elemento que sera mostrado no background */
+.posicaoDoBackground{
+    /* Mostra o centro do elemento no background */
+    background-position: center;
+
+    /* mostra o topo da imagen ou elemento no background */
+    background-position: top;
+
+    
+}
+
+
+
+
