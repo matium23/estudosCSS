@@ -1,0 +1,43 @@
+/* A propriedade(border) serve para adicionar uma borda em uma tag do tipo block */
+
+.bordas{
+    /* Coloca uma borda de 1 pixel */
+    border: 1px solid;
+
+    /* Coloca uma borda como pontinhos de 1 pixel */
+    border: 1px dotted;
+
+    /* Coloca borda com um traço de 1 pixel */
+    border: 1px dashed;
+
+    /* Coloca uma borda dupla */
+    border: double 1px;
+
+    /* Coloca uma bordad 3D */
+    border: groove 1px;
+    
+    /* Coloca uma borda arredondada de 1 pixel */
+    border-radius: 1px solid;
+
+    /* Coloca uma borda por dentro do bloco */
+    border: inset 1px;
+
+    /* Coloca uma borda por fora do bloco*/
+    border: outset 1px;
+
+    /* coloca uma borda oculta */
+    border: hidden;
+
+    /* nao coloca nenhuma borda */
+    border: none;
+
+    /* As propriedades top, botom, left e right definem onde a borda vai estar, so em cima, so em baixo
+    so na esquerda ou so na direita */
+    border-top: 1px;
+    border-bottom: 1px ;
+    border-left: 1px;
+    border-right: 1px;
+
+    
+    
+}
