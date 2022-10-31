@@ -1,0 +1,20 @@
+/*A Propriedade (Color) pode ser inplementada de 3 formas, rgb, hexadecimal e cores pre-definidas */
+
+
+
+/*Cores pre-definidas (ja vem prontas com seu codigo e nome ) e so selecionar*/
+.cor1{
+    color: blue;
+}
+
+
+/*Cores rgb (uma mistura de 3 cores )*/
+.cor2{
+    color: rgb(black, orange, red);
+}
+
+
+/*Cores hexadecimal representar Representada por um codigo */
+.cor3{
+    color: #fff;
+}
