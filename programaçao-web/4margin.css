@@ -1,0 +1,15 @@
+/* a propriedade margin e responsavel para dar espaços ao elementos e tags do topo block */
+
+.margens{
+
+    /* nesse caso e possivel determinar o tamanho da margen e to lugar que ela vai estar, cima, direita, baixo e esquerda */
+    margin-top: 1px;
+    margin-bottom: 1px ;
+    margin-left: 1px;
+    margin-right: 1px;
+
+    /* Tambem e possivel passar os parametros como shortranger na ordem top, left, boton e right*/
+
+    margin: 2px 1px 2px 1px;
+
+}
