@@ -1,0 +1,21 @@
+/* A Propriedade (pading) da um espaçamento ou peenchimento dentro do elemento, muito usado para fazer botoes */
+
+.pading{
+
+    /* essa Propriedade com esse valor damos um espaço em um local especifico, cima, esquerda, baixo e direita */
+    padding-top: 1px ;
+    padding-left: 2px ;
+    padding-bottom: 1px;
+    padding-right:2px ;
+
+    /* tambem e possivel fazer um shortranger */
+    padding:1px 2px 1px 2px;
+}
+
+/* confexao de um botao simples */
+.boton{
+    margin: 20px;
+    background-color: aqua;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}

@@ -1,0 +1,63 @@
+/* A propriedade (text) e responsavel por formatar os textos e tudo que envolve escrita na pagina */
+
+
+/* A propriedade text-align tem a responsabilidade de alinhar o texto */
+.texto-posicao{
+    text-align: center;
+    text-align: left;
+    text-align: right;
+
+    /* deixa o testo quadrado sem paragrafos */
+    text-align: justify; 
+}
+
+
+/* Na propriedade text-decoration e responsavel para tirar ou decorar a propriedade
+none = nenhuma
+dotted = coloca uma linha pontilhada 
+double = coloca 2 linhas
+dash = coloca uma linha tracejada
+solid = coloca uma linha solida
+overline = linha sobre as plavras
+underline = linha em baixo das palavras
+line-through = risca as palavras
+*/
+
+.texto-decoracao{
+    text-decoration: none;
+    text-decoration: dotted;
+    text-decoration: double;
+    text-decoration: dashed;
+    text-decoration: solid;
+    text-decoration: overline;
+    text-decoration: underline;
+    text-decoration:line-through ;
+    
+}
+
+/* determina qual o direcionamento do texto */
+.direcionamento{
+    /* Direita para a esquerda */
+    direction: rtl;
+    /* Esquerda para a direita */
+    direction: ltr;
+    
+}
+
+/* A propriedade text-transform e responsavel por transformar as palavras do texto */
+.transformar{
+    /* Todas as Letras grandes */
+    text-transform: uppercase;
+    /* Todas as Letras pequenas */
+    text-transform: lowercase;
+    /* Todas as palavras com a primeira letra em maiusculo */
+    text-transform: capitalize;
+    /* Coloca paragrafo em todoas as primeiras linhas  */
+    text-indent: 20px;
+    /* Coloca um espaçamento entre as letras  */
+    letter-spacing: 10px;
+    /* muda o espaçamento das linhas deixando mais juntas ou afastadas */
+    line-height: 5px;
+    /* Espaçamento entre palavras */
+    word-spacing: 5px;
+}
