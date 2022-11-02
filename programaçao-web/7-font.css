@@ -1,1 +1,14 @@
 /* as fontes são usadas para da mais estilo aos conteudos de escritas e tem varios formatos */
+
+.fontes{
+
+    /* A propriedade (font-family) e responsavel por definir o tipo de fonte   */
+    font-family: 'Lucida Sans';
+    /* A Propriedade (font-size) e responsavel por determinar o tamanho da fonte*/
+    font-size: 10px;
+    /* A Propriedade font-style determina o efeito da fonte talico, normal ... */
+    font-style: italic;
+    /* A propriedade (weight) tedermina a grossura da font "negrito" com uma variaçao de 100 a 900*/
+    font-weight: bold;
+
+}
