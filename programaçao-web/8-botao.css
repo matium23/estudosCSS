@@ -1,0 +1,15 @@
+/* Atravez a propriedade HTML (LINK) e possivel fazer botoes personalizados*/
+
+.botao{
+    background-color: aquamarine;
+    padding: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
+    text-decoration: none;
+}
+
+/* efeitos quando o mouse passar por cima, nesse caso so e preciso colocar as propriedades que irao mudar */
+.botao:hover{
+    background-color:rebeccapurple;
+    
+}
