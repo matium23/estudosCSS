@@ -1,0 +1,22 @@
+/* A propriedade (display) e responsavel por controlar o leiaute da pagina 
+ou como os elementos irao ser exibidos*/
+
+
+/* O display pode ser exibido como (block) um em baixo do outro ou (inline) um do lado do outro */
+.exibicao{
+    /* O  valor (block) vai fazer todos os elementos ficarem um em baixo do outro  */
+    display: block;
+
+    /* O valor (inline) vai fazer todos os elementos ficarem um ao lado do outro inclusive imagen e textos */
+    display: inline;
+
+    /* O valor (none) retira a visibilidade do elemento, usado para aparecer ou desaparecer no passar do mouse*/
+    display: none;
+
+    /* O valor (inline-block) deixa os elementos em linha porem com o comportamento de bloco*/
+    display: inline-block;
+
+    /* A propriedade (visibility) determina a visibilidade do elemento, no caso do valr (hiden)
+    o elemento continua la dentro do seu espaço porem nao ficara visivel e nenhum elemento ocupara seu espaço */
+    visibility: hidden;
+}
