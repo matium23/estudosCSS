@@ -5,16 +5,27 @@
 /*Cores pre-definidas (ja vem prontas com seu codigo e nome ) e so selecionar*/
 .cor1{
     color: blue;
+    
 }
 
 
 /*Cores rgb (uma mistura de 3 cores )*/
 .cor2{
-    color: rgb(black, orange, red);
+    color:rgb(rgb(163, 68, 68), rgb(54, 88, 54), rgb(22, 22, 153));
 }
 
 
 /*Cores hexadecimal representar Representada por um codigo */
 .cor3{
-    color: #fff;
+    color: #FF1493;
+}
+
+header{
+    font-size:20px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+h1{
+    background-color: aquamarine;
+    border-radius: 20px;
+    color: blueviolet;
 }

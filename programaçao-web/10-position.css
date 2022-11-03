@@ -1,0 +1,27 @@
+/* a propriedade position determina a posiçao que cada elemento ficara na pagina */
+
+.posicao{
+    /* O valor absolute determina o posicionamento do elemento dentro de seu pai ou de uma tag que ele esta
+    porem a tag pai nao pede ter um posicionamento "estatico" */
+    position: absolute;
+    top: 40%;
+    
+    /* O valor (fixed) determina uma posição fixa e inalterada na tela  mesmo que tenha rolagem 
+    combinado com as propriedade boton e right o elemento ficara na parte de baixo a esquerda */
+    position: fixed;
+    bottom: 0;
+    right: 0; 
+    
+    /* Valor (relativo) coloca a tag em uma posicao personalizada na tela ------------------------------------------------------------- */
+    position: relative;
+    left: 20%; /*pega somente a tag e poe para o lado podendo estar inculusive em cima de outra tag*/
+    z-index: -1 /*essa propriedade combinada com o position controla o (eixo Z) da tag "deixando ela em cima ou em baixo dos elementos"*/;
+    /* -------------------------------------------------------------------------------------------------------------------------------------------- */
+    
+    /* Valor (static) e o posicinamento de onde esta "o padrao de todas as tags" */
+    position: static;
+    
+    /* Valor (sticky) serve para a tag se deslocar dentro de uma tag pai mesmo que tenha uma rolagem na tela */
+    position: sticky;
+    
+}

@@ -1,0 +1,15 @@
+/* Adequa os conteudos adaptando os espaços quando o conteudo ou tag e maior do que a tag pai quando ela tem um tamanho pre-definido */
+
+.overflow{
+    /* O padrao visivel ja vem implementado nas tags */
+    overflow: visible;
+
+    /* O valaor (hidden) ja oculta os elementos que estao alem do tag */
+    overflow: hidden;
+
+    /* O valor (scroll) coloca uma barra de rolagem para alcansar os conteudos fora da tag */
+    overflow: scroll;
+
+    /* O valor (auto) coloca uma barra de rolagem apenas se ouver a nesseciadade */
+    overflow: auto;
+}
