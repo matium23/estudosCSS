@@ -11,7 +11,7 @@
 
 /*Cores rgb (uma mistura de 3 cores )*/
 .cor2{
-    color:rgb(rgb(163, 68, 68), rgb(54, 88, 54), rgb(22, 22, 153));
+    color: rgb(199, 71, 71);
 }
 
 
@@ -28,4 +28,14 @@ h1{
     background-color: aquamarine;
     border-radius: 20px;
     color: blueviolet;
+}
+p{
+   text-indent: 20px;
+}
+div{
+    border: 1px solid;
+}
+
+body{
+    color:cadetblue;
 }
