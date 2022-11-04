@@ -7,12 +7,12 @@
 
     background-color: #ff3;
 
-    background-color: rgb(red, green, blue);
+    background-color: rgb rgb(142, 56, 228);
 }
 
 /*Colocando imagens no background*/
 .imagenNoBackground{
-    background-image: url(../../imagens/pexels-pixabay-531880.jpg);   
+    background-image: url(../../imagens/carro3.jpg);   
 }
 
 
@@ -50,3 +50,8 @@
 
 
 
+.quebraDeLinha{
+    width: 200px;
+    word-wrap: break-word;
+       
+}
