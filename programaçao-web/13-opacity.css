@@ -1,0 +1,6 @@
+/* A Propriedade opacidade e responsavel por dar transparencia  no elemento e principalmente imagens
+A opacidade vai de (0.0 ate 1), e ela pega todos os elementos que estiverem dentro dela */
+
+.opacidade{
+    opacity: 0.1;
+}

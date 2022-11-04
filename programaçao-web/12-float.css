@@ -1,0 +1,9 @@
+/*  A Propriedade float e responsavel por flutuar com os elementos dando um alinhamento especifico*/
+
+.flutuar{
+    /* flutua para a direita */
+    float: lef;
+
+    /* flutua para a esquerda */
+    float: right;
+}
